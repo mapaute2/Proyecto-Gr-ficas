@@ -1,1 +1,1 @@
-# Proyecto-Gr-ficas
+# Proyecto-Graficas
