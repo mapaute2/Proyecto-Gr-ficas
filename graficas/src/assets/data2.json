@@ -1,0 +1,7 @@
+[
+  { "label": "Educación", "value1": 2500000, "value2": 10000 },
+  { "label": "Salud", "value1": 2000000, "value2": 20000 },
+  { "label": "Vivienda", "value1": 1500000, "value2": 52000 },
+  { "label": "Transporte", "value1": 100000, "value2": 10000 },
+  { "label": "Seguridad", "value1": 300000, "value2": 8000 }
+]

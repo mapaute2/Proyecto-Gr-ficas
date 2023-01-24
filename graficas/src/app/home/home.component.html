@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gráfica</title>
+</head>
+<body>
+    <nav class="navbar  navbar-expand-lg navbar-dark bg-dark" style="margin-right:-95%;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Proyecto de Gráficas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tipos de gráficas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><h4><a routerLink="barras" style="font-family: Arial;">Barras</a></h4></li>
+                    <li><h4><a routerLink="barras-dobles" style="font-family: Arial;">Barras dobles</a></h4></li>
+                    <li><h4><a routerLink="dona" style="font-family: Arial;">Pastek</a></h4></li>
+                    <li><h4><a routerLink="line" style="font-family: Arial;">Lineal</a></h4></li>
+                    </ul>
+                </li>
+                </ul>
+            </div>
+         </div>
+    </nav>
+    <div class="contenido" style="text-align: center; margin-left: 90%;margin-top: 10%;">
+        <i><b><h2>Chart.js</h2></b></i>
+    </div>
+    <div class="texto" style="display:justify;margin-left: 10%;margin-top: 10%;">
+        <p>Chart.js es una librería javascript open-source ideal para la visualización de datos en gráficos, 
+        como puede ser de barras, circular, líneas… donde destaca su sencillez. No requiere más que conocimientos 
+        básicos de Javascript y Html.</p>
+    </div>
+    <div class="ventajas" style="text-align: justify;margin-top: 10%;margin-left: 10%">
+        <b><p>Ventajas</p></b>
+        <p>Las ventajas frente a otras librerías de visualización de gráficos:</p>
+        <ul><li>Es opensource.</li></ul>
+        <ul><li>No requiere de ninguna dependencia ni librería externas, solo con javascript y html.</li></ul>
+        <ul><li>Se puede integrar de forma nativa con cualquier framework, como Angular.</li></ul>
+        <ul><li>Tiene una gran comunidad, soporte y buena documentación.</li></ul>
+        <ul><li>No requiere amplios conocimientos para su uso.</li></ul>
+    </div>
+    
+    <div class="conceptos" style="text-align: justify;margin-top: 10%;margin-left: 10%">
+        <b><p>Conceptos básicos:</p></b>
+        <ul><strong>type:</strong> tipo de gráfico, puede ser bar, pie…</ul>
+        <ul><p><strong>data:</strong> datos del gráfico, puntos, colores, etiquetas…</p></ul>
+            <ul><ul><li><strong>labels:</strong> etiquetas que aperecen en la parte inferior del gráfico</li></ul></ul>
+            <ul><ul><li><strong>datasets:</strong> conjunto de datos que se mostrarán en el gráfico, pueden ser más de
+                uno y formar un array siempre que tengan la misma estructura y mismo número de datos.</li></ul></ul>
+                <ul><ul><ul><li><strong>data:</strong> es una lista y contienen los valores de los datos a mostrar.</li></ul></ul></ul>
+                <ul><ul><ul><li><strong>datasets:</strong> conjunto de datos que se mostrarán en el grafico, pueden ser
+                    más de uno y formar un array siempre que tengan la misma estructura y mismo número de
+                    datos.</li></ul></ul></ul>
+                <ul><ul><ul><li><strong>backgroundColor:</strong> color del fondo, puede ser una lista para mostrar diferentes colores, por ejemplo en cada barra o compartir un único color.</li></ul></ul></ul>
+    
+        <ul><p><strong>options:</strong> depende del tipo de grafico que usemos se pueden usar ciertas opciones para un mayor control</p></ul>
+    </div>
+</body>
+</html>
