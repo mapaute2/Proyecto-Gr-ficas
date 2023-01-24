@@ -29,7 +29,11 @@ npm install
 
 - Saber la version
 ```
-ng --version 
+ng --version
+```
+o
+```
+ng version 
 ```
 - Instalar
 ```
