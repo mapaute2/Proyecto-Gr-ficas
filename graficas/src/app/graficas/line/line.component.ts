@@ -28,8 +28,8 @@ export class LineComponent implements OnInit {
           {
             label: 'Presupuesto',
             data: data.map(d => d.value),
-            backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
+            backgroundColor: 'rgba(69, 248, 84, 0.8)',
+            borderColor: 'rgba(69, 248, 84, 0.8)',
             borderWidth: 1,
           }
         ],

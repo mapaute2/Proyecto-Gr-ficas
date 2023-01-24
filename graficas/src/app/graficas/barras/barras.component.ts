@@ -16,7 +16,6 @@ export class BarrasComponent implements OnInit {
     this.createBarChart(datos);
   }
 
-
   createBarChart(data: Data[]) {
     const ctx: ChartItem = document.getElementById('bar-chart') as ChartItem;
     new Chart(ctx, {
@@ -28,7 +27,7 @@ export class BarrasComponent implements OnInit {
             label: 'Presupuesto',
             data: data.map(d => d.value),
             backgroundColor: 'rgba(255, 99, 132, 0.2)',
-            borderColor: 'rgba(255, 99, 132, 1)',
+            borderColor: 'rgba(9, 129, 176, 0.2)',
             borderWidth: 1,
           }
         ],

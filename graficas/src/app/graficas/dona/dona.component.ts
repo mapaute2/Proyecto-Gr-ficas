@@ -22,7 +22,7 @@ export class DonaComponent implements OnInit {
   createBarChart(data: Data[]) {
     const ctx: ChartItem = document.getElementById('bar-chart') as ChartItem;
     new Chart(ctx, {
-      type: 'doughnut',
+      type: 'pie',
       data: {
         labels: data.map(d => d.label),
         datasets: [
@@ -32,14 +32,14 @@ export class DonaComponent implements OnInit {
           }
         ],
       },
-      options: {
+      /*options: {
         scales: {
           y: {
             beginAtZero: true,
             stacked: true,
           },
         },
-      }
+      }*/
     });
   }
 
