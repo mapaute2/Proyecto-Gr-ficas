@@ -4,31 +4,34 @@ This project was generated with Angular CLI version 15.0.4.
 *Requisistos:*
 
 1. Tener instaldo Node.js
--saber la version
+
+- Saber la version
 ```
 node --version 
 ```
--instalar
+- Instalar
 ```
 https://nodejs.org/es/download/ 
 ```
 
 2. Tener instaldo el npm 
--saber la version
+
+- Saber la version
 ```
 npm --version 
 ```
--instalar
+- Instalar
 ```
 npm install  
 ```
 
 3. Tener instaldo angular 
--saber la version
+
+- Saber la version
 ```
 ng --version 
 ```
--instalar
+- Instalar
 ```
 npm install -g @angular/cli 
 ```
