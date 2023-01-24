@@ -41,7 +41,17 @@ Y el script que se ocupa en el archivo angular.json.
 
 **Como usas Chart.js**
 
-1. Instalar la librería Chart.js
+> Instalar la librería Chart.js
 ```
 npm install chart.js
+En el tsconfig.json agregar la siguiente línea
+"compilerOptions": {
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    ...
+  }
 ```
+
+# Development server
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
+
